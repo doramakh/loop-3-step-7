@@ -7,21 +7,20 @@ html {
 *::after {
   box-sizing: inherit;
 }
-body {
-  height: 100%;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-  background-color: #FFFFFF;
-  margin: 0;
+body{
   padding: 0;
+  margin: 0;
+  background-color: #0c2e16;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #fff;
 }
-.container {
-  max-width: 1148px;
-  padding: 0 24px;
+.container{
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 .visually-hidden {
   position: absolute;
@@ -32,4 +31,34 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  color: #999;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  transition: color 0.3s ease;
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+img{
+  width: 100%;
+  height: auto;
 }
