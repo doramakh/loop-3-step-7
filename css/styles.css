@@ -62,3 +62,63 @@ img{
   width: 100%;
   height: auto;
 }
+.cinema-ticket{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #070718;
+}
+.form-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #999;
+}
+.film-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+}
+.film-info h2{
+  margin: 0;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.film-info span{
+  display: block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #999;
+  text-transform: uppercase;
+}
+.cinema-name{
+  color: #999;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0;
+}
+.film-time{
+  font-size: 14px;
+  font-weight: 500;
+  margin: 12px 0;
+}
+.close-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+.close-button:hover{
+  border: 1px solid #fff;
+}
+.close-button:hover .material-icons{
+  color: #fff;
+}
+/* End of form header */
